@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation: TechForward 2025</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>TechForward 2025</h1>
+            <p class="theme">Innovate. Integrate. Inspire.</p>
+            <div id="countdown" class="countdown">
+                <div><span id="days">00</span>Days</div>
+                <div><span id="hours">00</span>Hours</div>
+                <div><span id="minutes">00</span>Minutes</div>
+                <div><span id="seconds">00</span>Seconds</div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="event-details" class="container">
+            <h2>You're Invited!</h2>
+            <p class="intro">Join us for an evening of insightful talks, networking, and a glimpse into the future of technology.</p>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <h3>🗓️ Date & Time</h3>
+                    <p>October 24, 2025<br>6:00 PM - 9:00 PM IST</p>
+                </div>
+                <div class="detail-item">
+                    <h3>📍 Venue</h3>
+                    <p>Vizag Coventions<br>Near Stadium, Madhurwada</p>
+                </div>
+                <div class="detail-item">
+                    <h3>🎤 Hosted By</h3>
+                    <p>Raghavendra & Dimple</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="agenda" class="container">
+            <h2>Agenda</h2>
+            <ul class="agenda-list">
+                <li><span>6:00 PM</span> - Welcome & Registration</li>
+                <li><span>6:30 PM</span> - Keynote: "The Next Decade of AI"</li>
+                <li><span>7:30 PM</span> - Panel Discussion: "Web 3.0 & Beyond"</li>
+                <li><span>8:30 PM</span> - Networking & Dinner</li>
+                <li><span>9:00 PM</span> - Closing Remarks</li>
+            </ul>
+        </section>
+        
+        <section id="location" class="container">
+            <h2>How to Get There</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5011.691045382832!2d83.35039859723653!3d17.794184721633933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395b931a744bdd%3A0x8e81c36fe2fabc6e!2sVizag%20Conventions!5e0!3m2!1sen!2sin!4v1756359692215!5m2!1sen!2sin" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="rsvp" class="container">
+            <h2>Confirm Your Attendance</h2>
+            <p>Please RSVP by October 15, 2025, to secure your spot.</p>
+            <form id="rsvp-form">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn">RSVP Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TechForward Events. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
